@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F50E860A16671A6600C78C93 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F50E860916671A6600C78C93 /* Default-568h@2x.png */; };
+		F518F95914CDF3790091D31F /* Building.m in Sources */ = {isa = PBXBuildFile; fileRef = F518F95814CDF3790091D31F /* Building.m */; };
+		F518F95F14CDF3AA0091D31F /* Elevator.m in Sources */ = {isa = PBXBuildFile; fileRef = F518F95C14CDF3AA0091D31F /* Elevator.m */; };
+		F518F96014CDF3AA0091D31F /* ElevatorButtonsPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F518F95E14CDF3AA0091D31F /* ElevatorButtonsPanel.m */; };
+		F518F96314CDF4020091D31F /* FloorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F518F96214CDF4020091D31F /* FloorButton.m */; };
+		F518F96614CDF4110091D31F /* FloorButtonPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F518F96514CDF4110091D31F /* FloorButtonPanel.m */; };
+		F545B66214E5466E00308DE6 /* QuartzUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = F545B66114E5466E00308DE6 /* QuartzUtils.m */; };
+		F545B67914E831CE00308DE6 /* FloorButtonPanelLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F545B67814E831CD00308DE6 /* FloorButtonPanelLayer.m */; };
+		F545B67C14E848A300308DE6 /* FloorButtonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F545B67B14E848A300308DE6 /* FloorButtonLayer.m */; };
+		F557DD4114CDD9CA00C064BD /* VectorPerson.png in Resources */ = {isa = PBXBuildFile; fileRef = F557DD4014CDD9CA00C064BD /* VectorPerson.png */; };
+		F557DD4514CDDE1500C064BD /* VectorPerson2.png in Resources */ = {isa = PBXBuildFile; fileRef = F557DD4414CDDE1500C064BD /* VectorPerson2.png */; };
+		F557DD4814CDDF0600C064BD /* PersonLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F557DD4714CDDF0600C064BD /* PersonLayer.m */; };
+		F571EB1214B6FD2200513040 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F571EB1114B6FD2200513040 /* UIKit.framework */; };
+		F571EB1414B6FD2200513040 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F571EB1314B6FD2200513040 /* Foundation.framework */; };
+		F571EB1614B6FD2200513040 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F571EB1514B6FD2200513040 /* CoreGraphics.framework */; };
+		F571EB1C14B6FD2200513040 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F571EB1A14B6FD2200513040 /* InfoPlist.strings */; };
+		F571EB1E14B6FD2200513040 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F571EB1D14B6FD2200513040 /* main.m */; };
+		F571EB2214B6FD2200513040 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F571EB2114B6FD2200513040 /* AppDelegate.m */; };
+		F571EB2A14B7022300513040 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F571EB2914B7022300513040 /* RootViewController.m */; };
+		F595B6E414CDF4A100C1307E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F595B6E114CDF4A100C1307E /* Person.m */; };
+		F595B6E514CDF4A100C1307E /* PersonGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F595B6E314CDF4A100C1307E /* PersonGenerator.m */; };
+		F595B6EE14CE0BB200C1307E /* BuildingElevatorsController.m in Sources */ = {isa = PBXBuildFile; fileRef = F595B6ED14CE0BB200C1307E /* BuildingElevatorsController.m */; };
+		F595B70914D0186100C1307E /* BuildingGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F595B70814D0186100C1307E /* BuildingGridLayer.m */; };
+		F5D7759E14B8810A00C41F37 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5D7759D14B8810A00C41F37 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F50E860916671A6600C78C93 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F517261D14EBFFF90066D1BE /* PersonDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDelegate.h; sourceTree = "<group>"; };
+		F518F95714CDF3790091D31F /* Building.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Building.h; sourceTree = "<group>"; };
+		F518F95814CDF3790091D31F /* Building.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Building.m; sourceTree = "<group>"; };
+		F518F95B14CDF3AA0091D31F /* Elevator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Elevator.h; sourceTree = "<group>"; };
+		F518F95C14CDF3AA0091D31F /* Elevator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Elevator.m; sourceTree = "<group>"; };
+		F518F95D14CDF3AA0091D31F /* ElevatorButtonsPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevatorButtonsPanel.h; sourceTree = "<group>"; };
+		F518F95E14CDF3AA0091D31F /* ElevatorButtonsPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElevatorButtonsPanel.m; sourceTree = "<group>"; };
+		F518F96114CDF4020091D31F /* FloorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorButton.h; sourceTree = "<group>"; };
+		F518F96214CDF4020091D31F /* FloorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorButton.m; sourceTree = "<group>"; };
+		F518F96414CDF4110091D31F /* FloorButtonPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorButtonPanel.h; sourceTree = "<group>"; };
+		F518F96514CDF4110091D31F /* FloorButtonPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorButtonPanel.m; sourceTree = "<group>"; };
+		F545B66014E5466E00308DE6 /* QuartzUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuartzUtils.h; sourceTree = "<group>"; };
+		F545B66114E5466E00308DE6 /* QuartzUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuartzUtils.m; sourceTree = "<group>"; };
+		F545B67714E831CD00308DE6 /* FloorButtonPanelLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorButtonPanelLayer.h; sourceTree = "<group>"; };
+		F545B67814E831CD00308DE6 /* FloorButtonPanelLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorButtonPanelLayer.m; sourceTree = "<group>"; };
+		F545B67A14E848A300308DE6 /* FloorButtonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorButtonLayer.h; sourceTree = "<group>"; };
+		F545B67B14E848A300308DE6 /* FloorButtonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorButtonLayer.m; sourceTree = "<group>"; };
+		F554DADD14D6E3F700C49BEF /* PersonGeneratorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonGeneratorDelegate.h; sourceTree = "<group>"; };
+		F557DD4014CDD9CA00C064BD /* VectorPerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VectorPerson.png; sourceTree = "<group>"; };
+		F557DD4414CDDE1500C064BD /* VectorPerson2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VectorPerson2.png; sourceTree = "<group>"; };
+		F557DD4614CDDF0600C064BD /* PersonLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonLayer.h; sourceTree = "<group>"; };
+		F557DD4714CDDF0600C064BD /* PersonLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonLayer.m; sourceTree = "<group>"; };
+		F571EB0D14B6FD2200513040 /* EducationUI2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EducationUI2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F571EB1114B6FD2200513040 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F571EB1314B6FD2200513040 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F571EB1514B6FD2200513040 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F571EB1914B6FD2200513040 /* EducationUI2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EducationUI2-Info.plist"; sourceTree = "<group>"; };
+		F571EB1B14B6FD2200513040 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F571EB1D14B6FD2200513040 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F571EB1F14B6FD2200513040 /* EducationUI2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EducationUI2-Prefix.pch"; sourceTree = "<group>"; };
+		F571EB2014B6FD2200513040 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F571EB2114B6FD2200513040 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F571EB2814B7022300513040 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		F571EB2914B7022300513040 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		F595B6E014CDF4A100C1307E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F595B6E114CDF4A100C1307E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F595B6E214CDF4A100C1307E /* PersonGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonGenerator.h; sourceTree = "<group>"; };
+		F595B6E314CDF4A100C1307E /* PersonGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonGenerator.m; sourceTree = "<group>"; };
+		F595B6EC14CE0BB200C1307E /* BuildingElevatorsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingElevatorsController.h; sourceTree = "<group>"; };
+		F595B6ED14CE0BB200C1307E /* BuildingElevatorsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingElevatorsController.m; sourceTree = "<group>"; };
+		F595B6F614CE14D800C1307E /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+		F595B70714D0186000C1307E /* BuildingGridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingGridLayer.h; sourceTree = "<group>"; };
+		F595B70814D0186100C1307E /* BuildingGridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildingGridLayer.m; sourceTree = "<group>"; };
+		F5D4359514D73C65001583B5 /* ElevatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElevatorDelegate.h; sourceTree = "<group>"; };
+		F5D4359714D882E4001583B5 /* BuildingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildingDelegate.h; sourceTree = "<group>"; };
+		F5D7759D14B8810A00C41F37 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F571EB0A14B6FD2200513040 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D7759E14B8810A00C41F37 /* QuartzCore.framework in Frameworks */,
+				F571EB1214B6FD2200513040 /* UIKit.framework in Frameworks */,
+				F571EB1414B6FD2200513040 /* Foundation.framework in Frameworks */,
+				F571EB1614B6FD2200513040 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F557DD4314CDD9D200C064BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F557DD4414CDDE1500C064BD /* VectorPerson2.png */,
+				F557DD4014CDD9CA00C064BD /* VectorPerson.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F557DD4914CDDF0F00C064BD /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				F545B67714E831CD00308DE6 /* FloorButtonPanelLayer.h */,
+				F545B67814E831CD00308DE6 /* FloorButtonPanelLayer.m */,
+				F545B67A14E848A300308DE6 /* FloorButtonLayer.h */,
+				F545B67B14E848A300308DE6 /* FloorButtonLayer.m */,
+				F557DD4614CDDF0600C064BD /* PersonLayer.h */,
+				F557DD4714CDDF0600C064BD /* PersonLayer.m */,
+				F595B70714D0186000C1307E /* BuildingGridLayer.h */,
+				F595B70814D0186100C1307E /* BuildingGridLayer.m */,
+			);
+			name = Layers;
+			sourceTree = "<group>";
+		};
+		F557DD4E14CDEFD000C064BD /* Elevator Model */ = {
+			isa = PBXGroup;
+			children = (
+				F595B6EB14CE0B4A00C1307E /* Elevator */,
+				F595B6EF14CE0BD500C1307E /* Building */,
+				F595B6F014CE0BED00C1307E /* FloorButtonPanels */,
+				F595B6F114CE0C0600C1307E /* Person */,
+			);
+			name = "Elevator Model";
+			path = EducationUI2;
+			sourceTree = "<group>";
+		};
+		F571EB0214B6FD2200513040 = {
+			isa = PBXGroup;
+			children = (
+				F50E860916671A6600C78C93 /* Default-568h@2x.png */,
+				F571EB1714B6FD2200513040 /* EducationUI2 */,
+				F557DD4E14CDEFD000C064BD /* Elevator Model */,
+				F571EB1014B6FD2200513040 /* Frameworks */,
+				F571EB0E14B6FD2200513040 /* Products */,
+				F557DD4314CDD9D200C064BD /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		F571EB0E14B6FD2200513040 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F571EB0D14B6FD2200513040 /* EducationUI2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F571EB1014B6FD2200513040 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5D7759D14B8810A00C41F37 /* QuartzCore.framework */,
+				F571EB1114B6FD2200513040 /* UIKit.framework */,
+				F571EB1314B6FD2200513040 /* Foundation.framework */,
+				F571EB1514B6FD2200513040 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F571EB1714B6FD2200513040 /* EducationUI2 */ = {
+			isa = PBXGroup;
+			children = (
+				F595B6F614CE14D800C1307E /* Defines.h */,
+				F545B66014E5466E00308DE6 /* QuartzUtils.h */,
+				F545B66114E5466E00308DE6 /* QuartzUtils.m */,
+				F571EB2014B6FD2200513040 /* AppDelegate.h */,
+				F571EB2114B6FD2200513040 /* AppDelegate.m */,
+				F557DD4914CDDF0F00C064BD /* Layers */,
+				F571EB2B14B7022900513040 /* Controllers */,
+				F571EB1814B6FD2200513040 /* Supporting Files */,
+			);
+			path = EducationUI2;
+			sourceTree = "<group>";
+		};
+		F571EB1814B6FD2200513040 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F571EB1914B6FD2200513040 /* EducationUI2-Info.plist */,
+				F571EB1A14B6FD2200513040 /* InfoPlist.strings */,
+				F571EB1D14B6FD2200513040 /* main.m */,
+				F571EB1F14B6FD2200513040 /* EducationUI2-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F571EB2B14B7022900513040 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F571EB2814B7022300513040 /* RootViewController.h */,
+				F571EB2914B7022300513040 /* RootViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F595B6EB14CE0B4A00C1307E /* Elevator */ = {
+			isa = PBXGroup;
+			children = (
+				F518F95B14CDF3AA0091D31F /* Elevator.h */,
+				F518F95C14CDF3AA0091D31F /* Elevator.m */,
+				F5D4359514D73C65001583B5 /* ElevatorDelegate.h */,
+				F518F95D14CDF3AA0091D31F /* ElevatorButtonsPanel.h */,
+				F518F95E14CDF3AA0091D31F /* ElevatorButtonsPanel.m */,
+			);
+			name = Elevator;
+			sourceTree = "<group>";
+		};
+		F595B6EF14CE0BD500C1307E /* Building */ = {
+			isa = PBXGroup;
+			children = (
+				F595B6EC14CE0BB200C1307E /* BuildingElevatorsController.h */,
+				F595B6ED14CE0BB200C1307E /* BuildingElevatorsController.m */,
+				F518F95714CDF3790091D31F /* Building.h */,
+				F518F95814CDF3790091D31F /* Building.m */,
+				F5D4359714D882E4001583B5 /* BuildingDelegate.h */,
+			);
+			name = Building;
+			sourceTree = "<group>";
+		};
+		F595B6F014CE0BED00C1307E /* FloorButtonPanels */ = {
+			isa = PBXGroup;
+			children = (
+				F518F96414CDF4110091D31F /* FloorButtonPanel.h */,
+				F518F96514CDF4110091D31F /* FloorButtonPanel.m */,
+				F518F96114CDF4020091D31F /* FloorButton.h */,
+				F518F96214CDF4020091D31F /* FloorButton.m */,
+			);
+			name = FloorButtonPanels;
+			sourceTree = "<group>";
+		};
+		F595B6F114CE0C0600C1307E /* Person */ = {
+			isa = PBXGroup;
+			children = (
+				F595B6E014CDF4A100C1307E /* Person.h */,
+				F595B6E114CDF4A100C1307E /* Person.m */,
+				F517261D14EBFFF90066D1BE /* PersonDelegate.h */,
+				F595B6E214CDF4A100C1307E /* PersonGenerator.h */,
+				F595B6E314CDF4A100C1307E /* PersonGenerator.m */,
+				F554DADD14D6E3F700C49BEF /* PersonGeneratorDelegate.h */,
+			);
+			name = Person;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F571EB0C14B6FD2200513040 /* EducationUI2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F571EB2514B6FD2200513040 /* Build configuration list for PBXNativeTarget "EducationUI2" */;
+			buildPhases = (
+				F571EB0914B6FD2200513040 /* Sources */,
+				F571EB0A14B6FD2200513040 /* Frameworks */,
+				F571EB0B14B6FD2200513040 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EducationUI2;
+			productName = EducationUI2;
+			productReference = F571EB0D14B6FD2200513040 /* EducationUI2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F571EB0414B6FD2200513040 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = F571EB0714B6FD2200513040 /* Build configuration list for PBXProject "EducationUI2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F571EB0214B6FD2200513040;
+			productRefGroup = F571EB0E14B6FD2200513040 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F571EB0C14B6FD2200513040 /* EducationUI2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F571EB0B14B6FD2200513040 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F571EB1C14B6FD2200513040 /* InfoPlist.strings in Resources */,
+				F557DD4114CDD9CA00C064BD /* VectorPerson.png in Resources */,
+				F557DD4514CDDE1500C064BD /* VectorPerson2.png in Resources */,
+				F50E860A16671A6600C78C93 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F571EB0914B6FD2200513040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F571EB1E14B6FD2200513040 /* main.m in Sources */,
+				F571EB2214B6FD2200513040 /* AppDelegate.m in Sources */,
+				F571EB2A14B7022300513040 /* RootViewController.m in Sources */,
+				F557DD4814CDDF0600C064BD /* PersonLayer.m in Sources */,
+				F518F95914CDF3790091D31F /* Building.m in Sources */,
+				F518F95F14CDF3AA0091D31F /* Elevator.m in Sources */,
+				F518F96014CDF3AA0091D31F /* ElevatorButtonsPanel.m in Sources */,
+				F518F96314CDF4020091D31F /* FloorButton.m in Sources */,
+				F518F96614CDF4110091D31F /* FloorButtonPanel.m in Sources */,
+				F595B6E414CDF4A100C1307E /* Person.m in Sources */,
+				F595B6E514CDF4A100C1307E /* PersonGenerator.m in Sources */,
+				F595B6EE14CE0BB200C1307E /* BuildingElevatorsController.m in Sources */,
+				F595B70914D0186100C1307E /* BuildingGridLayer.m in Sources */,
+				F545B66214E5466E00308DE6 /* QuartzUtils.m in Sources */,
+				F545B67914E831CE00308DE6 /* FloorButtonPanelLayer.m in Sources */,
+				F545B67C14E848A300308DE6 /* FloorButtonLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F571EB1A14B6FD2200513040 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F571EB1B14B6FD2200513040 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F571EB2314B6FD2200513040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F571EB2414B6FD2200513040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F571EB2614B6FD2200513040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EducationUI2/EducationUI2-Prefix.pch";
+				INFOPLIST_FILE = "EducationUI2/EducationUI2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F571EB2714B6FD2200513040 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EducationUI2/EducationUI2-Prefix.pch";
+				INFOPLIST_FILE = "EducationUI2/EducationUI2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F571EB0714B6FD2200513040 /* Build configuration list for PBXProject "EducationUI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F571EB2314B6FD2200513040 /* Debug */,
+				F571EB2414B6FD2200513040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F571EB2514B6FD2200513040 /* Build configuration list for PBXNativeTarget "EducationUI2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F571EB2614B6FD2200513040 /* Debug */,
+				F571EB2714B6FD2200513040 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F571EB0414B6FD2200513040 /* Project object */;
+}
